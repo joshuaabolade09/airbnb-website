@@ -1,13 +1,43 @@
 const toggle = document.querySelector('.toggle');
 let price = document.querySelectorAll('.price');
 const showMore =document.getElementById('showe')
+const closeClass =document.querySelector('.fa.fa-close')
+const page =document.querySelector('.page')
+const signInLink = document.querySelector('.sign');
+const sign= document.querySelector('.d')
+
+
+// Close the sign Up class //
+closeClass.addEventListener('click', function (){
+  console.log("close")
+  
+  page.style.display = 'none';
+})
+
+
+signInLink.addEventListener('click', function(){
+  console.log("Yes")
+  sign.style.display = 'none';
+  page.style.display = "block";
+
+
+
+})
+
+
+document.querySelector('.signIn').addEventListener('click', function() {
+  document.querySelector('.d').style.display = 'block';
+});
 
 
 toggle.addEventListener('click', function() {
+  toggle.classList.toggle('on')
   for (let element of price) {
     updatePrice(element);
   }
 });
+
+
 //Increase price by 2.2 when the toggle button is on 
 function updatePrice(element) {
   let currentPrice = element.textContent.match(/\d+/)[0];
@@ -25,7 +55,6 @@ function updatePrice(element) {
     element.textContent = "$" + defaultPrice + " night";
   }
 }
-
 
 // Creating image  json
 
@@ -243,7 +272,9 @@ const priceElement = document.createElement('p');
 
 displayPage(currentPage, endPage)
 
+
 showMore.addEventListener("click", function() {
   currentPage++;
   displayPage(currentPage);
 });
+
