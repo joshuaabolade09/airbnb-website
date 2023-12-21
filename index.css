@@ -1,92 +1,90 @@
 nav{
-    background-color: #f8f8f8;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+  background-color: #f8f8f8;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.header{
-    text-decoration: none;
-   font-size: 20px;
-   font-weight: 300;
-   color:#ff5a5f;
 
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Circular Button */
+.circular-button {
+  background-color: #ff5a5f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button img{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
 
 }
-.logo{
-    height:40px;
-    width:40px;
-    display: flex;
-    margin:10px
-}
-.logo-name{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color:#ff5a5f;
-    margin:15px
-}
-  
-  /* Logo */
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  /* Circular Button */
-  .circular-button {
-    background-color: #ff5a5f;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .button img{
-    width: 30px;
-    height: 30px;
-    margin-left: 20px;
 
-  }
 
+/* Search Image */
+.search-image {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* Login Button */
+.signIn {
+  padding: 8px 16px;
+  background-color: #ff5a5f;
+  color: #fff;
+  border:black;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Airbnb Text */
+.airbnb-text {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  margin: 10px;
   
-  /* Search Image */
-  .search-image {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
   
-  /* Login Button */
-  .signIn {
-    padding: 8px 16px;
-    background-color: #ff5a5f;
-    color: #fff;
-    border:black;
-    border-radius: 15px;
-    font-size: 14px;
-    font-weight: bold;
-  }
+    .logo {
+      margin: 0;
+    }
   
-  /* Airbnb Text */
-  .airbnb-text {
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    margin: 10px;
-    
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    .logo-name {
+      margin: 0;
+    }
+  
+    .header {
+      margin-top: 10px;
+    }
   }
   .poor{
     display: flex;
@@ -521,13 +519,13 @@ img {
   height: 50px
 
 }
-.select-box {
+.select_box {
   position: absolute;
   width: 28rem;
   margin: 7rem auto;
 }
 
-.select-box input {
+.select_box input {
   width: 100%;
   padding: 1rem .6rem;
   font-size: 1.1rem;
@@ -535,7 +533,7 @@ img {
   outline: none;
 }
 
-.select-box input:focus {
+.select_box input:focus {
   border: .4rem solid wheat;
 }
 
@@ -567,9 +565,12 @@ img {
   top:50%;
   transform: translateY(-50%) rotate(45deg);
   border-right: .12rem solid black;
+  transition: .2s;
   border-bottom: .12rem solid black;
 
 
+}.selected-option div.active::after{
+  transform: translateY(-50%) rotate(225deg);
 }
 .select-box .options{
   
@@ -578,7 +579,11 @@ img {
   background-color: #fff;
   border-radius: 1rem;
 }
-.select-box .options::before {
+.select_box .options.active{
+  display: block;
+
+}
+.select_box .options::before {
   position: absolute;
   left:1rem;
   top:-1.0rem;
@@ -589,7 +594,7 @@ img {
   border-bottom-color: black;
 
 }
- .search-box {
+ .search_box {
   background-color: black;
   border-radius: .5rem .5rem 0 0.3rem;
   color:#fff
@@ -597,6 +602,43 @@ img {
 input [type="tel"]{
   border-radius: 0 .5rem .5rem 0;
 }
-.select-box ol{
+.select_box ol{
   list-style: none;
+  max-height: 23rem;
+  overflow: overlay;
+}
+
+.select_box-ol li:not(:last-child){
+  box-shadow: .1rem solid #eee;
+}
+
+.select_box ol::-webkit-scrollbar{
+  width: 0.6rem;
+}
+
+.select_box ol::-webkit-scrollbar-thumb{
+  width: 0.4rem;
+  height:3rem;
+  background-color: #ccc;
+  border-radius: .4ren;
+}
+.select_box ol li{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.select_box ol li.hide{
+display: none;
+}
+
+.select_box ol li:hover{
+background-color: lightcyan;
+}
+.select_box ol li.country-name {
+  margin-left: .4rem;
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS code for screens with a maximum width of 768px */
 }
