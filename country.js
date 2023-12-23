@@ -232,6 +232,14 @@ const selectedoption=document.querySelector('.selected-option div')
 
 
 
+selectedoption.addEventListener('click', function(){
+  select_box.classList.toggle('active')
+  selectedoption.classList.toggle('active')
+
+})
+
+
+
 
 
 
@@ -252,11 +260,6 @@ select_box.querySelector('ol').insertAdjacentHTML("beforeend", option)
 options=document.querySelectorAll('.options')
 }
 
-selectedoption.addEventListener('click', function(){
-  select_box.classList.toggle('active')
-  selectedoption.classList.toggle('active')
-
-})
 
    
 options.forEach(option=>option.addEventListener('click', selectedOption))

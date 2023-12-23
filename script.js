@@ -1,13 +1,9 @@
 const toggle = document.querySelector('.toggle');
 let price = document.querySelectorAll('.price');
-const showMore =document.getElementById('showe')
 const closeClass =document.querySelector('.fa.fa-close')
 const page =document.querySelector('.page')
 const signInLink = document.querySelector('.sign');
 const sign= document.querySelector('.d')
-
-
-   
 
 
 
@@ -31,6 +27,8 @@ signInLink.addEventListener('click', function(){
 
 
 document.querySelector('.signIn').addEventListener('click', function() {
+  console.log("Yes")
+  document.querySelector('.all').style.display='none'
   document.querySelector('.d').style.display = 'block';
 });
 
@@ -61,4 +59,5 @@ function updatePrice(element) {
   }
 }
 
-// Creating image  json
+
+
