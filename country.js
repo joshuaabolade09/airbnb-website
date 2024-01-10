@@ -95,7 +95,7 @@ const countries = [
     { name: "Guinea", code: "GN", phone: 224 },
     { name: "Guinea-Bissau", code: "GW", phone: 245 },
     { name: "Guyana", code: "GY", phone:235},
-  {name: "Haiti", code: "HT", phone: 509 },
+    {name: "Haiti", code: "HT", phone: 509 },
     { name: "Heard Island and McDonald Islands", code: "HM", phone: 0 },
     { name: "Holy See (Vatican City State)", code: "VA", phone: 39 },
     { name: "Honduras", code: "HN", phone: 504 },
@@ -129,7 +129,7 @@ const countries = [
     { name: "Liberia", code: "LR", phone: 231 },
     { name: "Libyan Arab Jamahiriya", code: "LY", phone: 218 },
     { name: "Liechtenstein", code: "LI", phone:237},
-  { name: "Madagascar", code: "MG", phone: 261 },
+    { name: "Madagascar", code: "MG", phone: 261 },
     { name: "Malawi", code: "MW", phone: 265 },
     { name: "Malaysia", code: "MY", phone: 60 },
     { name: "Maldives", code: "MV", phone: 960 },
@@ -226,7 +226,7 @@ const countries = [
   ]
 
   const select_box=document.querySelector('.options')
-const search_box=document.querySelector('.search_box')
+const search_box=document.querySelector('.search-box')
 const input_box=document.querySelector('input[type="tel"]');
 const selectedoption=document.querySelector('.selected-option div')
 
@@ -270,9 +270,9 @@ search_box.addEventListener('input', searchCountry)
 
 
 function selectedOption(){
-  console.log(this)
-  const icon= this.querySelector('.iconify').cloneNode(true)
-  phone_code= this.querySelector('.strong').cloneNode(true)
+  
+  const icon= selectedOption.querySelector('.iconify').cloneNode(true)
+  phone_code= selectedOption.querySelector('.strong').cloneNode(true)
 
   selectedOption.innerHTML=''
   selectedOption.append(icon, phone_code)
@@ -280,7 +280,7 @@ function selectedOption(){
   
   select_box.classList.remove('active')
   selectedoption.classList.remove('active')
-  search_box.value=""
+  search_box.value="";
   select_box.querySelector(".hide").forEach(el=> el.classList.remove("hide"))
  
 }
@@ -290,7 +290,7 @@ function searchCountry(){
   let  search_query= search_box.value.toLowerCase();
   for(option of options){
     let is_matched=option.querySelector("country-name").innerText.toLowerCase().includes(search_query)
-  options.classList.toggle('hide', !is_matched)
+  this.classList.toggle('hide', !is_matched)
   
   }
   }

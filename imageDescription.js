@@ -1,7 +1,7 @@
 
 const imageDescription=[
     {
-      src: "img/nanats 1b.webp",
+      src: "nantes 1b.webp",
       price:"$52 night",
       Date:"Dec 12-15",
       Location:"Nantes, France",
@@ -10,7 +10,7 @@ const imageDescription=[
   
     },
     {
-    src: "img/paris 1b.webp",
+    src: "paris 1b.webp",
       price:"$52 night",
       Date:"Dec 12-15",
       Location:"Monaco, France",
@@ -176,14 +176,14 @@ const imageDescription=[
                                             description:"Stay with Maracana , Coach"
                                           },
                                           {
-                                            src: "img/texas1b.png",
+                                            src: "img/turin 1a.webp",
                                               price:"$44 night",
                                               Date:"Dec 12-14",
                                               Location:"Stuggart, Germany",
                                               description:"Stay with Stunner, Coach"
                                             },
                                             {
-                                                src: "img/texas1c.png",
+                                                src: "img/turin 1b.webp",
                                                   price:"$96 night",
                                                   Date:"Feb 13-17",
                                                   Location:"Moins, Labascatar",
@@ -191,42 +191,42 @@ const imageDescription=[
                                                 },
 
                                                 {
-                                                    src: "img/texas1d.png",
+                                                    src: "img/texas 1c.png",
                                                       price:"$135 night",
                                                       Date:"July 8-12",
                                                       Location:"Meinz, France",
                                                       description:"Stay with Osihmen , African Best Player"
                                                     },
                                                     {
-                                                        src: "img/texas1e.png",
+                                                        src: "img/saudi1c.png",
                                                           price:"$142 night",
                                                           Date:"May 13-17",
                                                           Location:"Berlin, Germany",
                                                           description:"Stay with Koeman , Coach"
                                                         },
                                                         {
-                                                            src: "img/texas2a.png",
+                                                            src: "img/saudi1d.png",
                                                               price:"$88 night",
                                                               Date:"Dec 17-22",
                                                               Location:"Ottawa, Canada",
                                                               description:"Stay with Xavi , Coach"
                                                             },
                                                             {
-                                                                src: "img/texas2b.png",
+                                                                src: "img/saudi1e.png",
                                                                   price:"$88 night",
                                                                   Date:"Feb 8-12",
                                                                   Location:"Ipswich, England",
                                                                   description:"Stay with Xabi , Coach"
                                                                 },
                                                                 {
-                                                                    src: "img/texas2c.png",
+                                                                    src: "img/saudi3a.png",
                                                                       price:"$126 night",
                                                                       Date:"Dec 8-12",
                                                                       Location:"Sunderland, England",
                                                                       description:"Stay with Nisterooy , Player"
                                                                     },
                                                                     {
-                                                                        src: "img/texas2d.png",
+                                                                        src: "img/saudi2b.png",
                                                                           price:"$130 night",
                                                                           Date:"Mar 8-12",
                                                                           Location:"Leceister, England",
@@ -562,7 +562,7 @@ const imageDescription=[
                                                                                                 },
                                                                                                 
                                                                                               {
-                                                                                                src: "img/rio2a.png",
+                                                                                                src: "img/Qatar4e.png",
                                                                                                   price:"$22 night",
                                                                                                   Date:"Dec 13-17",
                                                                                                   Location:"Stuggart, Germany",
@@ -570,7 +570,7 @@ const imageDescription=[
                                                                                                 },
                                                                                           
                                                                                                 {
-                                                                                                  src: "img/rio2b.png",
+                                                                                                  src: "img/rio3c.png",
                                                                                                     price:"$54 night",
                                                                                                     Date:"Feb 12-14",
                                                                                                     Location:"Munich , Germany",
@@ -662,7 +662,7 @@ const imageDescription=[
                                                                                                     
                                                                                                     
                                                                                                                       {
-                                                                                                                        src: "img/img/saudi1d.png",
+                                                                                                                        src: "img/saudi1d.png",
                                                                                                                           price:"$68 night",
                                                                                                                           Date:"Oct 11-15 ",
                                                                                                                           Location:"Paris, France",
@@ -697,21 +697,21 @@ const imageDescription=[
                                                                                                                                   description:"Stay with Serland, Body fitness Coach"
                                                                                                                                 },
                                                                                                                                 {
-                                                                                                                                  src: "img/texas.png",
+                                                                                                                                  src: "img/saudi1.png",
                                                                                                                                     price:"$66 night",
                                                                                                                                     Date:"Dec 8-12",
                                                                                                                                     Location:"Paris, France",
                                                                                                                                     description:"Stay with Maracana , Coach"
                                                                                                                                   },
                                                                                                                                   {
-                                                                                                                                    src: "img/texas1b.png",
+                                                                                                                                    src: "img/saudi1b.png",
                                                                                                                                       price:"$44 night",
                                                                                                                                       Date:"Dec 12-14",
                                                                                                                                       Location:"Stuggart, Germany",
                                                                                                                                       description:"Stay with Stunner, Coach"
                                                                                                                                     },
                                                                                                                                     {
-                                                                                                                                        src: "img/texas1c.png",
+                                                                                                                                        src: "img/saudi1c.png",
                                                                                                                                           price:"$96 night",
                                                                                                                                           Date:"Feb 13-17",
                                                                                                                                           Location:"Moins, Labascatar",
@@ -719,14 +719,14 @@ const imageDescription=[
                                                                                                                                         },
                                                                                         
                                                                                                                                         {
-                                                                                                                                            src: "img/texas1d.png",
+                                                                                                                                            src: "img/saudi1d.png",
                                                                                                                                               price:"$135 night",
                                                                                                                                               Date:"July 8-12",
                                                                                                                                               Location:"Meinz, France",
                                                                                                                                               description:"Stay with Osihmen , African Best Player"
                                                                                                                                             },
                                                                                                                                             {
-                                                                                                                                                src: "img/texas1e.png",
+                                                                                                                                                src: "img/saudi2a.png",
                                                                                                                                                   price:"$142 night",
                                                                                                                                                   Date:"May 13-17",
                                                                                                                                                   Location:"Berlin, Germany",
@@ -734,14 +734,14 @@ const imageDescription=[
                                                                                                                                                 },
 
                                                                                                                                                 {
-                                                                                                                                                    src: "img/texas2a.png",
+                                                                                                                                                    src: "img/saudi2b.png",
                                                                                                                                                       price:"$88 night",
                                                                                                                                                       Date:"Dec 17-22",
                                                                                                                                                       Location:"Ottawa, Canada",
                                                                                                                                                       description:"Stay with Xavi , Coach"
                                                                                                                                                     },
                                                                                                                                                     {
-                                                                                                                                                        src: "img/texas2b.png",
+                                                                                                                                                        src: "img/saudi2c.png",
                                                                                                                                                           price:"$88 night",
                                                                                                                                                           Date:"Feb 8-12",
                                                                                                                                                           Location:"Ipswich, England",
@@ -762,14 +762,14 @@ const imageDescription=[
                                                                                                                                                                   description:"Stay with Rodgers , Coach"
                                                                                                                                                                 },
                                                                                                                                                                 {
-                                                                                                                                                                    src: "img/img/saudi3a.png",
+                                                                                                                                                                    src: "img/saudi3a.png",
                                                                                                                                                                       price:"$130 night",
                                                                                                                                                                       Date:"July 8-12",
                                                                                                                                                                       Location:"Sunderland, England",
                                                                                                                                                                       description:"Stay with Wenger , Coach"
                                                                                                                                                                     },
                                                                                                                                                                     {
-                                                                                                                                                                        src: "img/saudi3b.png",
+                                                                                                                                                                        src: "img/Ger1c.jpg",
                                                                                                                                                                           price:"$66 night",
                                                                                                                                                                           Date:"Dec 8-12",
                                                                                                                                                                           Location:"Paris, France",
@@ -783,7 +783,7 @@ const imageDescription=[
                                                                                                                                                                               description:"Stay with Maracana , Coach"
                                                                                                                                                                             },
                                                                                                                                                                             {
-                                                                                                                                                                                src: "img/img/saudi3d.png",
+                                                                                                                                                                                src: "img/saudi3d.png",
                                                                                                                                                                                   price:"$130 night",
                                                                                                                                                                                   Date:"Dec 13-16",
                                                                                                                                                                                   Location:" Firanke, France",
@@ -797,21 +797,21 @@ const imageDescription=[
                                                                                                                                                                                       description:"Stay with Timotheus, Forex Trader"
                                                                                                                                                                                     },
                                                                                                                                                                                     {
-                                                                                                                                                                                        src: "img/Kenya1b.png",
+                                                                                                                                                                                        src: "img/Kenya3b.png",
                                                                                                                                                                                           price:"$66 night",
                                                                                                                                                                                           Date:"Dec 8-12",
                                                                                                                                                                                           Location:"Paris, France",
                                                                                                                                                                                           description:"Stay with Maracana , Coach"
                                                                                                                                                                                         },
                                                                                                                                                                                         {
-                                                                                                                                                                                            src: "img/Kenya1d.png",
+                                                                                                                                                                                            src: "img/Kenya1c.png",
                                                                                                                                                                                               price:"$130 night",
                                                                                                                                                                                               Date:"May 8-12",
                                                                                                                                                                                               Location:"Paris, France",
                                                                                                                                                                                               description:"Stay with Maracana , Coach"
                                                                                                                                                                                             },
                                                                                                                                                                                             {
-                                                                                                                                                                                                src: "img/Kenya1e.png",
+                                                                                                                                                                                                src: "img/Kenya2e.png",
                                                                                                                                                                                                   price:"$150 night",
                                                                                                                                                                                                   Date:"July 8-12",
                                                                                                                                                                                                   Location:"Ottawa, Canada",
@@ -895,7 +895,7 @@ const imageDescription=[
                                                                                                                             description: "Stay with Rick Ross , Pop Artiste"
                                                                                                                           },
                                                                                                                           {
-                                                                                                                            src: "img/nanates 1d.webp",
+                                                                                                                            src: "img/Ger4a.jpg",
                                                                                                                               price:"$408 night",
                                                                                                                               Date:"Nov 8-12 ",
                                                                                                                               Location:"Paris, France",
@@ -973,14 +973,14 @@ const imageDescription=[
                                                                                                                                                             description:"Stay with Xabi , Coach"
                                                                                                                                                           },
                                                                                                                                                           {
-                                                                                                                                                              src: "img/Kenya1b.png",
+                                                                                                                                                              src: "img/Kenya3b.png",
                                                                                                                                                                 price:"$126 night",
                                                                                                                                                                 Date:"Dec 8-12",
                                                                                                                                                                 Location:"Sunderland, England",
                                                                                                                                                                 description:"Stay with Nisterooy , Player"
                                                                                                                                                               },
                                                                                                                                                               {
-                                                                                                                                                                  src: "img/Kenya1c.png",
+                                                                                                                                                                  src: "img/Kenya 1c.png",
                                                                                                                                                                     price:"$130 night",
                                                                                                                                                                     Date:"Mar 8-12",
                                                                                                                                                                     Location:"Leceister, England",
@@ -994,14 +994,14 @@ const imageDescription=[
                                                                                                                                                                         description:"Stay with Wenger , Coach"
                                                                                                                                                                       },
                                                                                                                                                                       {
-                                                                                                                                                                          src: "img/us1a.jpg",
+                                                                                                                                                                          src: "img/us2.jpg",
                                                                                                                                                                             price:"$66 night",
                                                                                                                                                                             Date:"Dec 8-12",
                                                                                                                                                                             Location:"Paris, France",
                                                                                                                                                                             description:"Stay with Maracana , Coach"
                                                                                                                                                                           },
                                                                                                                                                                           {
-                                                                                                                                                                            src: "img/us1b.jpg",
+                                                                                                                                                                            src: "img/us2a.jpg",
                                                                                                                                                                             price:"$52 night",
                                                                                                                                                                             Date:"Dec 12-15",
                                                                                                                                                                             Location:"Nantes, France",
@@ -1010,7 +1010,7 @@ const imageDescription=[
                                                                                                                                                                         
                                                                                                                                                                           },
                                                                                                                                                                           {
-                                                                                                                                                                          src: "img/us1c.jpg",
+                                                                                                                                                                          src: "img/us2c.jpg",
                                                                                                                                                                             price:"$52 night",
                                                                                                                                                                             Date:"Dec 12-15",
                                                                                                                                                                             Location:"Monaco, France",
@@ -1018,7 +1018,7 @@ const imageDescription=[
                                                                                                                                                                           },
                                                                                                                                                                         
                                                                                                                                                                           {
-                                                                                                                                                                            src: "img/us1d.jpg",
+                                                                                                                                                                            src: "img/us2d.jpg",
                                                                                                                                                                               price:"$65 night",
                                                                                                                                                                               Date:"Dec 13-17",
                                                                                                                                                                               Location:"Reinnes, France",
@@ -1026,7 +1026,7 @@ const imageDescription=[
                                                                                                                                                                             },
                                                                                                                                                                         
                                                                                                                                                                             {
-                                                                                                                                                                              src: "img/us1e.jpg",
+                                                                                                                                                                              src: "img/uk1e.jpg",
                                                                                                                                                                                 price:"$65 night",
                                                                                                                                                                                 Date:"Dec 13-17",
                                                                                                                                                                                 Location:"Reinnes, France",
@@ -1273,7 +1273,7 @@ const imageDescription=[
                                                                                                                                                                                                                                                                   description:"Stay with Maracana , Coach"
                                                                                                                                                                                                                                                                 },
                                                                                                                                                                                                                                                                 {
-                                                                                                                                                                                                                                                                    src: "img/oak2a(2).jpg",
+                                                                                                                                                                                                                                                                    src: "img/oak3a.jpg",
                                                                                                                                                                                                                                                                       price:"$124 night",
                                                                                                                                                                                                                                                                       Date:"May 8-12",
                                                                                                                                                                                                                                                                       Location:"Ontario, Canada",
@@ -1287,7 +1287,7 @@ const imageDescription=[
                                                                                                                                                                                                                                                                           description:"Stay with Maracana , Coach"
                                                                                                                                                                                                                                                                         },
                                                                                                                                                                                                                                                                         {
-                                                                                                                                                                                                                                                                            src: "img/oak2c.jpg",
+                                                                                                                                                                                                                                                                            src: "img/oak4c.jpg",
                                                                                                                                                                                                                                                                               price:"$130 night",
                                                                                                                                                                                                                                                                               Date:"May 8-12",
                                                                                                                                                                                                                                                                               Location:"Paris, France",
@@ -1323,7 +1323,7 @@ const imageDescription=[
                                                                                                                                                                                                                                                                                               description:"Stay with Ipwisch, Best man"
                                                                                                                                                                                                                                                                                             },
                                                                                                                                                                                                                                                                                             {
-                                                                                                                                                                                                                                                                                                src: "img/oak3e.jpg",
+                                                                                                                                                                                                                                                                                                src: "img/oak5b.jpg",
                                                                                                                                                                                                                                                                                                   price:"$128 night",
                                                                                                                                                                                                                                                                                                   Date:"Dec 13-17",
                                                                                                                                                                                                                                                                                                   Location:"Stuggart, Germany",
@@ -1406,14 +1406,14 @@ const imageDescription=[
                                                                                                                                                                                                                     description:"Stay with Serland, Body fitness Coach"
                                                                                                                                                                                                                   },
                                                                                                                                                                                                                   {
-                                                                                                                                                                                                                    src: "img/rio2a.png",
+                                                                                                                                                                                                                    src: "img/rio3e.png",
                                                                                                                                                                                                                       price:"$66 night",
                                                                                                                                                                                                                       Date:"Dec 8-12",
                                                                                                                                                                                                                       Location:"Paris, France",
                                                                                                                                                                                                                       description:"Stay with Maracana , Coach"
                                                                                                                                                                                                                     },
                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                      src: "img/rio2b.png",
+                                                                                                                                                                                                                      src: "img/rio3d.png",
                                                                                                                                                                                                                         price:"$44 night",
                                                                                                                                                                                                                         Date:"Dec 12-14",
                                                                                                                                                                                                                         Location:"Stuggart, Germany",
@@ -1747,7 +1747,7 @@ const imageDescription=[
                                                                                                                                                                                                                                                                                                                     description:"Stay with Stunner, Coach"
                                                                                                                                                                                                                                                                                                                   },
                                                                                                                                                                                                                                                                                                                   {
-                                                                                                                                                                                                                                                                                                                      src: "img/texas1c.png",
+                                                                                                                                                                                                                                                                                                                      src: "img/saudi1e.png",
                                                                                                                                                                                                                                                                                                                         price:"$96 night",
                                                                                                                                                                                                                                                                                                                         Date:"Feb 13-17",
                                                                                                                                                                                                                                                                                                                         Location:"Moins, Labascatar",
@@ -1755,47 +1755,14 @@ const imageDescription=[
                                                                                                                                                                                                                                                                                                                       },
                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                                                                       {
-                                                                                                                                                                                                                                                                                                                          src: "img/texas1d.png",
+                                                                                                                                                                                                                                                                                                                          src: "img/texas 1c.png",
                                                                                                                                                                                                                                                                                                                             price:"$135 night",
                                                                                                                                                                                                                                                                                                                             Date:"July 8-12",
                                                                                                                                                                                                                                                                                                                             Location:"Meinz, France",
                                                                                                                                                                                                                                                                                                                             description:"Stay with Osihmen , African Best Player"
                                                                                                                                                                                                                                                                                                                           },
-                                                                                                                                                                                                                                                                                                                          {
-                                                                                                                                                                                                                                                                                                                              src: "img/texas1e.png",
-                                                                                                                                                                                                                                                                                                                                price:"$142 night",
-                                                                                                                                                                                                                                                                                                                                Date:"May 13-17",
-                                                                                                                                                                                                                                                                                                                                Location:"Berlin, Germany",
-                                                                                                                                                                                                                                                                                                                                description:"Stay with Koeman , Coach"
-                                                                                                                                                                                                                                                                                                                              },
-                                                                                                                                                                                                                                                                                                                              {
-                                                                                                                                                                                                                                                                                                                                  src: "img/texas2a.png",
-                                                                                                                                                                                                                                                                                                                                    price:"$88 night",
-                                                                                                                                                                                                                                                                                                                                    Date:"Dec 17-22",
-                                                                                                                                                                                                                                                                                                                                    Location:"Ottawa, Canada",
-                                                                                                                                                                                                                                                                                                                                    description:"Stay with Xavi , Coach"
-                                                                                                                                                                                                                                                                                                                                  },
-                                                                                                                                                                                                                                                                                                                                  {
-                                                                                                                                                                                                                                                                                                                                      src: "img/texas2b.png",
-                                                                                                                                                                                                                                                                                                                                        price:"$88 night",
-                                                                                                                                                                                                                                                                                                                                        Date:"Feb 8-12",
-                                                                                                                                                                                                                                                                                                                                        Location:"Ipswich, England",
-                                                                                                                                                                                                                                                                                                                                        description:"Stay with Xabi , Coach"
-                                                                                                                                                                                                                                                                                                                                      },
-                                                                                                                                                                                                                                                                                                                                      {
-                                                                                                                                                                                                                                                                                                                                          src: "img/texas2c.png",
-                                                                                                                                                                                                                                                                                                                                            price:"$126 night",
-                                                                                                                                                                                                                                                                                                                                            Date:"Dec 8-12",
-                                                                                                                                                                                                                                                                                                                                            Location:"Sunderland, England",
-                                                                                                                                                                                                                                                                                                                                            description:"Stay with Nisterooy , Player"
-                                                                                                                                                                                                                                                                                                                                          },
-                                                                                                                                                                                                                                                                                                                                          {
-                                                                                                                                                                                                                                                                                                                                              src: "img/texas2d.png",
-                                                                                                                                                                                                                                                                                                                                                price:"$130 night",
-                                                                                                                                                                                                                                                                                                                                                Date:"Mar 8-12",
-                                                                                                                                                                                                                                                                                                                                                Location:"Leceister, England",
-                                                                                                                                                                                                                                                                                                                                                description:"Stay with Rodgers , Coach"
-                                                                                                                                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                      
                                                                                                                                                                                                                                                                                                                                               {
                                                                                                                                                                                                                                                                                                                                                   src: "img/ontario1.png",
                                                                                                                                                                                                                                                                                                                                                     price:"$130 night",
@@ -2126,7 +2093,7 @@ const imageDescription=[
                                                                                                                                                                                                                                                                                                                                                                       },
                                                                                                                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                                                                                                                     {
-                                                                                                                                                                                                                                                                                                                                                                      src: "img/rio2a.png",
+                                                                                                                                                                                                                                                                                                                                                                      src: "img/rio3a.png",
                                                                                                                                                                                                                                                                                                                                                                         price:"$22 night",
                                                                                                                                                                                                                                                                                                                                                                         Date:"Dec 13-17",
                                                                                                                                                                                                                                                                                                                                                                         Location:"Stuggart, Germany",
@@ -2204,21 +2171,24 @@ const imageDescription=[
   ]
 
 
-  let currentIndex=0;
+  let currentIndexing=0;
   let imagePerpage=20
 
   let imageGrid= document.querySelector('.image-pack-grid')
-function showNextImages(){
+function showImages(){
   console.log("ok")
   
   //clear the grid before adding new elements
   while(imageGrid.firstChild){
     imageGrid.removeChild(imageGrid.firstChild   )
   }
-  for (let index = currentIndex; index < currentIndex+ imagePerpage; index++) {
-if(index>=imageDescription.length){
+  for (let index = currentIndexing + imagePerpage; index < currentIndexing+ imagePerpage  * 2; index++) {
+if(
+  index>=imageDescription.length-19){
+    show.disabled="true"
   break;
 }
+
 let imageDescriptions= imageDescription[index]
 let imageElement=document.createElement('div')
 imageElement.classList.add('image-pack-row')
@@ -2232,7 +2202,7 @@ imageElement.innerHTML=`
 `
 imageGrid.appendChild(imageElement)
 
-  }currentIndex+=imagePerpage
+  }currentIndexing+=imagePerpage
 
 }
 
@@ -2240,14 +2210,16 @@ imageGrid.appendChild(imageElement)
 
 //Display different image description 
 
-function displayImages(linkIndex){
+
+function display(linkIndex){
+  console.log("Yes")
   const startIndex= (linkIndex-1)* 20
   const endIndex= startIndex + 20
   const imageToDisplay=imageDescription.slice(startIndex,endIndex)
 
   //clear the grid before adding new elements
   while(imageGrid.firstChild){
-    imageGrid.removeChild(imageGrid.firstChild   )
+    imageGrid.removeChild(imageGrid.firstChild)
   }
 
 imageToDisplay.forEach((image)=>{
@@ -2268,3 +2240,5 @@ imageGrid.appendChild(grid)
 
 })
 }
+
+
